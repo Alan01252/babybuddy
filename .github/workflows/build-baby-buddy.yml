@@ -31,7 +31,6 @@ jobs:
       with:
         builder: ${{ steps.buildx.outputs.name }}
         tags: docker.io/alan01252/babybuddy:latest
-        platforms: linux/amd64,linux/arm/v7
         label: "org.opencontainers.image.source=${{ github.repositoryUrl }}"
         push: true
         file: "Dockerfile"
