@@ -33,5 +33,5 @@ jobs:
         tags: docker.io/alan01252/babybuddy:latest
         labels: "org.opencontainers.image.source=${{ github.repositoryUrl }}"
         push: true
-        platforms: linux/amd64,linux/arm/v7
+        platforms: linux/arm/v7
         file: "Dockerfile"
