@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8d63eefd261a38563e0ed94c7c2505ebe80d099699775e657d206432fea19b73"
+            "sha256": "3f55b3417062e51b74c54522fdc64dd3b54f3d90680cec70d4fcf91fcb91287b"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -73,7 +73,7 @@
                 "sha256:59c8125ca873ed3bdae9c12b146fbbd6ed8d0f743e4cf5f5817af50c51f1fc2f",
                 "sha256:b5fbb818e751f660fa2d576d9f40c34a4c615c8b48dd383f5216e609f383371f"
             ],
-            "index": "pypi",
+            "index": "piwheels",
             "version": "==3.1.1"
         },
         "django-filter": {
@@ -81,7 +81,7 @@
                 "sha256:11e63dd759835d9ba7a763926ffb2662cf8a6dcb4c7971a95064de34dbc7e5af",
                 "sha256:616848eab6fc50193a1b3730140c49b60c57a3eda1f7fc57fa8505ac156c6c75"
             ],
-            "index": "pypi",
+            "index": "piwheels",
             "version": "==2.3.0"
         },
         "django-import-export": {
@@ -106,7 +106,7 @@
                 "sha256:9f91ca4217199b7671971d3c1f323a2bec71a0c27dec6260b3c006fa541bc489",
                 "sha256:f80bff4a8a59b278bb277a405a76a8b9a884e4bae7a6c70e78a39c626cd1c836"
             ],
-            "index": "pypi",
+            "index": "piwheels",
             "version": "==1.4.8"
         },
         "djangorestframework": {
@@ -115,7 +115,7 @@
                 "sha256:8b1ac62c581dbc5799b03e535854b92fc4053ecfe74bad3f9c05782063d4196b",
                 "sha256:d4634320a718ceab689227c4d31b3a6ba92bb12c3e76fad692416b8d649a9313"
             ],
-            "index": "pypi",
+            "index": "piwheels",
             "version": "==3.11.1"
         },
         "docutils": {
@@ -156,7 +156,7 @@
                 "sha256:1904bb2b8a43658807108d59c3f3d56c2b6121a701161de0ddf9ad140073c626",
                 "sha256:cd4a810dd51bf497552cf3f863b575dabd73d6ad6a91075b65936b151cbf4f9c"
             ],
-            "index": "pypi",
+            "index": "piwheels",
             "version": "==20.0.4"
         },
         "jdcal": {

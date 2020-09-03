@@ -10,16 +10,16 @@ verify_ssl = true
 name = "piwheels"
 
 [packages]
-django = "*"
-djangorestframework = "*"
-django-filter = "*"
-django-widget-tweaks = "*"
+django = {version="*", index="piwheels"}
+djangorestframework = {version="*", index="piwheels"}
+django-filter = {version="*", index="piwheels"}
+django-widget-tweaks = {version="*", index="piwheels"}
 plotly = {version="*", index="piwheels"}
 pandas = {version="*", index="piwheels"}
 numpy = {version="*", index="piwheels"}
 faker = "*"
 dj-database-url = "*"
-gunicorn = "*"
+gunicorn = {version="*", index="piwheels"}
 whitenoise = "*"
 psycopg2-binary = {version="*", index="piwheels"}
 easy-thumbnails = {version="*", index="piwheels"}

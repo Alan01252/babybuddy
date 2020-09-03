@@ -1,5 +1,6 @@
 FROM python:3
 ENV PYTHONUNBUFFERED 1
+RUN apt install libopenjp2-7 libatlas-base-dev libtiff5
 RUN pip install --upgrade pipenv gunicorn
 WORKDIR /app
 COPY Pipfile /app/
