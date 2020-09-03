@@ -30,8 +30,8 @@ jobs:
       uses: docker/build-push-action@v2-build-push
       with:
         builder: ${{ steps.buildx.outputs.name }}
-        tags: docker.io/alan01252/babybuddy/arm32v7:latest
+        tags: docker.io/alan01252/babybuddy:latest
         label: "org.opencontainers.image.source=${{ github.repositoryUrl }}"
         push: true
-        platform: linux/arm/v7
+        platform: linux/amd64,linux/arm/v7
         file: "Dockerfile"
