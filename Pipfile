@@ -21,7 +21,7 @@ dj-database-url = "*"
 gunicorn = "*"
 whitenoise = "*"
 psycopg2-binary = "*"
-easy-thumbnails = "*"
+easy-thumbnails = {version="*", index="piwheels"}
 python-dotenv = "*"
 django-storages = "*"
 boto3 = "*"
