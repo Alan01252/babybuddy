@@ -1,4 +1,4 @@
-FROM arm32v7/python:3
+FROM arm32v7/python:3.7
 ENV PYTHONUNBUFFERED 1
 RUN apt install -y libopenjp2-7 libtiff5
 RUN pip install --upgrade pipenv gunicorn
