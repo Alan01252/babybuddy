@@ -14,8 +14,9 @@ django = "*"
 djangorestframework = "*"
 django-filter = "*"
 django-widget-tweaks = "*"
-plotly = "*"
+plotly = {version="*", index="piwheels"}
 pandas = {version="*", index="piwheels"}
+numpy = {version="*", index="piwheels"}
 faker = "*"
 dj-database-url = "*"
 gunicorn = "*"
