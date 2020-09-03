@@ -1,6 +1,7 @@
 [[source]]
+url = "https://pypi.org/simple"
 verify_ssl = true
-url = "https://pypi.python.org/simple"
+name = "pypi"
 
 [[source]]
 
@@ -14,7 +15,7 @@ djangorestframework = "*"
 django-filter = "*"
 django-widget-tweaks = "*"
 plotly = "*"
-pandas = "*"
+pandas = {version="*", index="piwheels"}
 faker = "*"
 dj-database-url = "*"
 gunicorn = "*"
