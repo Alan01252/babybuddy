@@ -24,11 +24,14 @@ whitenoise = "*"
 psycopg2-binary = {version="*", index="piwheels"}
 easy-thumbnails = {version="*", index="piwheels"}
 python-dotenv = {version="*", index="piwheels"}
+openpyxl = {version="*", index="piwheels"}
 django-storages = "*"
 boto3 = "*"
 django-import-export = "*"
 pyyaml = "*"
 uritemplate = "*"
+odfpy = {version="*", index="piwheels"}
+pillow = {version="*", index="piwheels"}
 
 [dev-packages]
 coveralls = "*"
