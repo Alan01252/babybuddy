@@ -25,3 +25,4 @@ docker-compose.yml
 
 # Django media root directory.
 /media
+/secrets
