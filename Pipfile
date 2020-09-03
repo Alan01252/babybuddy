@@ -21,9 +21,9 @@ faker = "*"
 dj-database-url = "*"
 gunicorn = "*"
 whitenoise = "*"
-psycopg2-binary = "*"
+psycopg2-binary = {version="*", index="piwheels"}
 easy-thumbnails = {version="*", index="piwheels"}
-python-dotenv = "*"
+python-dotenv = {version="*", index="piwheels"}
 django-storages = "*"
 boto3 = "*"
 django-import-export = "*"
