@@ -4,7 +4,7 @@ RUN pip install --upgrade pipenv gunicorn
 WORKDIR /app
 COPY Pipfile /app/
 COPY Pipfile.lock /app/
-RUN pipenv install --deploy --system -v
+RUN pipenv install --deploy --system --skip-lock
 ADD manage.py /app/
 ADD api /app/api
 ADD babybuddy /app/babybuddy
