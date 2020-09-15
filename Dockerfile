@@ -1,5 +1,6 @@
 FROM arm32v7/python:3.7
 ENV PYTHONUNBUFFERED 1
+RUN sudo apt-get -y install libatlas-base-dev
 RUN pip install --upgrade pipenv gunicorn
 WORKDIR /app
 COPY Pipfile /app/
